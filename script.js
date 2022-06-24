@@ -14,6 +14,9 @@ if (operator === '+') {
 }else if (operator === '*') {
     let multiplication = Number(first_operand) * Number(second_operand);
     alert(`The result of multiplying ${first_operand} by ${second_operand} is: ${multiplication}`);
+}else if (operator === '%') {
+    let modulus = Number(first_operand) % Number(second_operand);
+    alert(`The remainder of dividing ${first_operand} by ${second_operand} is: ${modulus}`);
 }else{
     alert('invalid operator');
 }
